@@ -90,3 +90,16 @@ data class DataSiswa(
 2. Pastikan file script `bacaTeman.php` dan `insertTM.php` berada di folder `htdocs/tiumy/`.
 3. Buka proyek ini di **Android Studio**.
 4. Jalankan aplikasi pada Emulator Android atau Perangkat Fisik (pastikan IP backend disesuaikan jika menggunakan perangkat fisik).
+
+---
+
+## 📤 Menghubungkan & Push ke Remote Repository GitHub (`QuestAPI_0219`)
+
+```bash
+# Hubungkan ke repository GitHub
+git remote add origin https://github.com/devano2068/QuestAPI_0219.git
+
+# Set branch utama ke main dan push seluruh commit
+git branch -M main
+git push -u origin main
+```
